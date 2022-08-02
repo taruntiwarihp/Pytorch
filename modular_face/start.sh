@@ -1,0 +1,1 @@
+exec python services/dlib_serve.py & exec python services/segmentation.py & exec python services/classification.py & exec python services.py 

@@ -74,9 +74,28 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
+# Model checkpoints
+*pt
+*pth
+*dat
+
+# Images and files
+*jpg
+*png
+logs/
+glove/
+data/
+*txt
+*tar.gz
+*tar.xz
+*gz
+*csv
+*zip
+*h5
+*bin
+*json
+*pkl
 # IPython
 profile_default/
 ipython_config.py

@@ -1,0 +1,14 @@
+--- 
+pipeline: 
+  ? "cron schedule"
+  : 
+    enable: false
+    schedule: "50 11 * * *"
+  description: "DBT-databrick test with 10 sql"
+  name: "DBT horizontal LOAD"
+  tasks: 
+    ? "load task"
+    : 
+      type: "dbt task"
+      version: 1.0
+    tasks: 1.0
